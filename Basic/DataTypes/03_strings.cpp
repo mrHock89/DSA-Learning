@@ -6,12 +6,15 @@ int main(){
 
     string str1, str2;
     cin >> str1 >> str2;
-    cout << str1 << " "<< str2 << endl; // Hello Anirban
+    // cout << str1 << " "<< str2 << endl; // Hello Anirban
 
     // Taking hole string as a sentence like
     // using getline
-    string fullSent;
-    getline(cin, fullSent); // How are you? 
-    cout << fullSent;
+    string fullSent = "I am happy to know you";
+    // getline(cin, fullSent); // How are you? 
+    // cout << fullSent;
+
+    char ch = 'g';
+    cout <<  ch;
     return 0;
 }

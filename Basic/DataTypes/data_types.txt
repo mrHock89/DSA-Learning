@@ -1,0 +1,4 @@
+we just need
+int, long, long long, float, double
+string and getline
+char
